@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Episode drafts (generated — don't commit drafts)
+episodes/drafts/*
+!episodes/drafts/.gitkeep
+
+# Research data (keep notes, not raw data files)
+episodes/research/*/data/
+episodes/transcripts/
+
+# Audio/video output
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# API responses cache
+.cache/
